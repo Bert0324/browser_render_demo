@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>script block dom parsing</title>
+    <script>
+        setTimeout(() => {
+            console.log(document.getElementsByClassName('root'));
+        }, 1000);
+    </script>
+</head>
+
+<body>
+    <link rel="stylesheet" type="text/css" href="/static/3000--style.css">
+    <div class="root">123</div>
+</body>
+
+</html>
